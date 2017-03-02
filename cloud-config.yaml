@@ -10,3 +10,7 @@ ssh_authorized_keys:
 coreos:
   etcd2:
     discovery: https://discovery.etcd.io/14b530f2f2b0f542996f68cdc35ce649
+
+  units:
+    - name: etcd2.service
+      command: start
