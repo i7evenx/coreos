@@ -1,1 +1,12 @@
+#cloud-config
+#
+# Set Hostname
+hostname: CoreBM#
+
+# Set SSH Key
+ssh_authorized_keys:
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDhdMaNR4rBRGibiXEi19vIyLu5TB2+FaFgN5dS17SSUEhn/fVY0NEaXrxrtsCi4E2v0aT6SwfwZVOjf8123rY6DCGOPUnNivZWlOsqqFwvQcsTc5MT4nBKYoXwmaXC2HLCipCymIZBeAvIKCZM7COye7F/2jcPT/xMO1zGOQcYpNsjiOJRtAfWSU2aUJTaurQp/F4kDIaKoQ0vGELlXrI0wjzR9811Ix/D9vS8SG09QbEyqW9n+BYn5HTV7N6hH37+g6fnKZ9/zH9rWoWDeLHVEPsQDqRBX0mFRQAa60OCcBgT+eg4PdKJIk0negNvscIoch9/13f2ZKI4davk8oZJ rihard@rihard-nb
+
+coreos:
+  etcd:
+  discovery: https://discovery.etcd.io/14b530f2f2b0f542996f68cdc35ce649
